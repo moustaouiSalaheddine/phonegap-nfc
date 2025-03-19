@@ -1,3 +1,27 @@
+
+Note: This version supports Android SDK 34
+==========================
+
+Fix: NFC Push Compatibility with Android SDK 34
+-------------------
+Android SDK 34 has removed support for NFC push functionality, causing compatibility issues with the PhoneGap NFC Plugin.
+
+This fork includes a fix to restore NFC functionality on Android SDK 34 while maintaining support for older versions.
+
+🔹 Fix Highlights:
+
+* ✅ Adapted NFC functionality to comply with Android SDK 34 changes.
+* ✅ Ensured backward compatibility where possible.
+* ✅ Improved stability for NFC operations.
+
+Installation
+-------------------
+If you're using this plugin on Android SDK 34 or later, install this fork instead of the original plugin:
+
+```
+npm i git+https://github.com/moustaouiSalaheddine/phonegap-nfc.git
+```
+
 PhoneGap NFC Plugin
 ==========================
 
